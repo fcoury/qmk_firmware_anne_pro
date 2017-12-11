@@ -30,6 +30,24 @@ Preliminary next steps (more will come):
 	* if works, have fun
 	* otherwise, start from 1
 
+	
+## How to contribute
+
+For now I thought of this workflow:
+
+* fork this project
+* clone your fork in your computer (`git clone <your_fork_url`)
+* create a branch and start working (`git checkout -b name_of_your_branch`)
+* commit your changes to your branch (`git commit`)
+* publish your branch (`git push origin/branch_name`)
+* rebase from master (`git rebase master`)(I thank you if you upload from upstream)
+* force push after rebase (`git push -f`)
+* merge your branch to master (can be done from github itself)
+* create an Pull Request from your repo to this repo
+
+
+### Ideas, code, knowledge or any other form of help is welcomed!
+
 <!--* Maintainer: [josecostamartins](https://github.com/josecostamartins)-->
 * Hardware Supported:
   * Anne Pro (under construction)
