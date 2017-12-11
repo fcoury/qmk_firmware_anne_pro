@@ -19,14 +19,14 @@
 #define CONFIG_H
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0xC1ED
-#define PRODUCT_ID      0x2350
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    "Clueboard"
-#define USBSTR_MANUFACTURER 'C', '\x00', 'l', '\x00', 'u', '\x00', 'e', '\x00', 'b', '\x00', 'o', '\x00', 'a', '\x00', 'r', '\x00', 'd', '\x00'
-#define PRODUCT         "Clueboard60"
-#define USBSTR_PRODUCT 'C', '\x00', 'l', '\x00', 'u', '\x00', 'e', '\x00', 'b', '\x00', 'o', '\x00', 'a', '\x00', 'r', '\x00', 'd', '\x00', ' ', '\x00', '6', '\x00', '0', '\x00', '%', '\x00'
-#define DESCRIPTION     "Clueboard 60%"
+#define VENDOR_ID       0x0483
+#define PRODUCT_ID      0x5710
+#define DEVICE_VER      0x0002
+#define MANUFACTURER    "Obins"
+#define USBSTR_MANUFACTURER 'O', '\x00', 'b', '\x00', 'i', '\x00', 'n', '\x00', 's', '\x00'
+#define PRODUCT         "Anne Pro"
+#define USBSTR_PRODUCT 'A', '\x00', 'n', '\x00', 'n', '\x00', 'e', '\x00', ' ', '\x00', 'P', '\x00', 'r', '\x00', 'o', '\x00'
+#define DESCRIPTION     "Anne Pro bluetooth mechanical keyboard"
 
 /* key matrix size */
 #define MATRIX_ROWS 5
