@@ -7,23 +7,23 @@ LAYOUTS += 60_ansi 60_ansi_split_bs_rshift 60_iso
 # - the next two should match the directories in
 #   <chibios>/os/hal/ports/$(MCU_FAMILY)/$(MCU_SERIES)
 MCU_FAMILY = STM32
-MCU_SERIES = STM32F3xx
+MCU_SERIES = STM32L1xx
 
 # Linker script to use
 # - it should exist either in <chibios>/os/common/ports/ARMCMx/compilers/GCC/ld/
 #   or <this_dir>/ld/
-MCU_LDSCRIPT = STM32F303xC
+MCU_LDSCRIPT = STM32L151x8
 
 # Startup code to use
 #  - it should exist in <chibios>/os/common/startup/ARMCMx/compilers/GCC/mk/
-MCU_STARTUP = stm32f3xx
+MCU_STARTUP = stm32l1xx
 
 # Board: it should exist either in <chibios>/os/hal/boards/
 #  or <this_dir>/boards
-BOARD = GENERIC_STM32_F303XC
+BOARD = GENERIC_STM32_L151C8
 
 # Cortex version
-MCU  = cortex-m4
+MCU  = cortex-m3
 
 # ARM version, CORTEX-M0/M1 are 6, CORTEX-M3/M4/M7 are 7
 ARMV = 7
